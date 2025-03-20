@@ -1,0 +1,872 @@
+{
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.data.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.data.html",
+    "title": "Field data | Core",
+    "keywords": "Field data Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public IntPtr[] data Returns IntPtr[]"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.dataSize.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.dataSize.html",
+    "title": "Field dataSize | Core",
+    "keywords": "Field dataSize Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int dataSize Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.exposureDuration.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.exposureDuration.html",
+    "title": "Field exposureDuration | Core",
+    "keywords": "Field exposureDuration Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll Exposure duration in nano seconds public int exposureDuration Returns int Exposure duration in nano seconds"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.format.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.format.html",
+    "title": "Field format | Core",
+    "keywords": "Field format Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int format Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.frameNumber.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.frameNumber.html",
+    "title": "Field frameNumber | Core",
+    "keywords": "Field frameNumber Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int frameNumber Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.gain.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.gain.html",
+    "title": "Field gain | Core",
+    "keywords": "Field gain Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int gain Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.height.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.height.html",
+    "title": "Field height | Core",
+    "keywords": "Field height Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int height Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.html",
+    "title": "Struct CameraFrameItemData | Core",
+    "keywords": "Struct CameraFrameItemData Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public struct CameraFrameItemData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields data dataSize exposureDuration Exposure duration in nano seconds format frameNumber gain height soeTimestamp Start of exposure timestamp in nano seconds (nanosecond CLOCK_BOOT_TIME) soeTimestampq Start of exposure timestamp in nano seconds (nanosecond with qtimer) stride width Methods ToString()"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestamp.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestamp.html",
+    "title": "Field soeTimestamp | Core",
+    "keywords": "Field soeTimestamp Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll Start of exposure timestamp in nano seconds (nanosecond CLOCK_BOOT_TIME) public long soeTimestamp Returns long Start of exposure timestamp in nano seconds (nanosecond CLOCK_BOOT_TIME)"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestampq.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestampq.html",
+    "title": "Field soeTimestampq | Core",
+    "keywords": "Field soeTimestampq Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll Start of exposure timestamp in nano seconds (nanosecond with qtimer) public long soeTimestampq Returns long Start of exposure timestamp in nano seconds (nanosecond with qtimer)"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.stride.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.stride.html",
+    "title": "Field stride | Core",
+    "keywords": "Field stride Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int stride Returns int"
+  },
+  "api/YVR.Enterprise.Camera.CameraFrameItemData.width.html": {
+    "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.width.html",
+    "title": "Field width | Core",
+    "keywords": "Field width Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public int width Returns int"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.ToString.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.ax.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.ax.html",
+    "title": "Field ax | Core",
+    "keywords": "Field ax Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double ax Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.ay.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.ay.html",
+    "title": "Field ay | Core",
+    "keywords": "Field ay Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double ay Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.az.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.az.html",
+    "title": "Field az | Core",
+    "keywords": "Field az Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double az Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.confidence.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.confidence.html",
+    "title": "Field confidence | Core",
+    "keywords": "Field confidence Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public uint confidence Returns uint"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.html",
+    "title": "Struct SixDofPoseData | Core",
+    "keywords": "Struct SixDofPoseData Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public struct SixDofPoseData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields ax ay az confidence reserved rw rx ry rz timestamp vx vy vz w_ax w_ay w_az warning_flag wx wy wz x y z Methods ToString()"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.reserved.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.reserved.html",
+    "title": "Field reserved | Core",
+    "keywords": "Field reserved Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public byte[] reserved Returns byte[]"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.rw.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.rw.html",
+    "title": "Field rw | Core",
+    "keywords": "Field rw Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rw Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.rx.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.rx.html",
+    "title": "Field rx | Core",
+    "keywords": "Field rx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rx Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.ry.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.ry.html",
+    "title": "Field ry | Core",
+    "keywords": "Field ry Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double ry Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.rz.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.rz.html",
+    "title": "Field rz | Core",
+    "keywords": "Field rz Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rz Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.timestamp.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.timestamp.html",
+    "title": "Field timestamp | Core",
+    "keywords": "Field timestamp Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public long timestamp Returns long"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.vx.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.vx.html",
+    "title": "Field vx | Core",
+    "keywords": "Field vx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double vx Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.vy.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.vy.html",
+    "title": "Field vy | Core",
+    "keywords": "Field vy Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double vy Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.vz.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.vz.html",
+    "title": "Field vz | Core",
+    "keywords": "Field vz Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double vz Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.w_ax.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ax.html",
+    "title": "Field w_ax | Core",
+    "keywords": "Field w_ax Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double w_ax Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.w_ay.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ay.html",
+    "title": "Field w_ay | Core",
+    "keywords": "Field w_ay Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double w_ay Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.w_az.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.w_az.html",
+    "title": "Field w_az | Core",
+    "keywords": "Field w_az Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double w_az Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.warning_flag.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.warning_flag.html",
+    "title": "Field warning_flag | Core",
+    "keywords": "Field warning_flag Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public uint warning_flag Returns uint"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.wx.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.wx.html",
+    "title": "Field wx | Core",
+    "keywords": "Field wx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double wx Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.wy.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.wy.html",
+    "title": "Field wy | Core",
+    "keywords": "Field wy Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double wy Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.wz.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.wz.html",
+    "title": "Field wz | Core",
+    "keywords": "Field wz Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double wz Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.x.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.x.html",
+    "title": "Field x | Core",
+    "keywords": "Field x Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double x Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.y.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.y.html",
+    "title": "Field y | Core",
+    "keywords": "Field y Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double y Returns double"
+  },
+  "api/YVR.Enterprise.Camera.SixDofPoseData.z.html": {
+    "href": "api/YVR.Enterprise.Camera.SixDofPoseData.z.html",
+    "title": "Field z | Core",
+    "keywords": "Field z Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double z Returns double"
+  },
+  "api/YVR.Enterprise.Camera.TrackingCameraType.html": {
+    "href": "api/YVR.Enterprise.Camera.TrackingCameraType.html",
+    "title": "Enum TrackingCameraType | Core",
+    "keywords": "Enum TrackingCameraType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum TrackingCameraType Fields EyeTracking = 3 Max = 4 TrackingAux = 2 TrackingMaster = 0 TrackingSlave = 1"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFormatType.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFormatType.html",
+    "title": "Enum VSTCameraFormatType | Core",
+    "keywords": "Enum VSTCameraFormatType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum VSTCameraFormatType Fields VSTCameraFmtNv12 = 0 VSTCameraFmtNv21 = 1"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrameData.ToString.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrameData.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrameData.cameraFrameItem.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrameData.cameraFrameItem.html",
+    "title": "Field cameraFrameItem | Core",
+    "keywords": "Field cameraFrameItem Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public CameraFrameItemData cameraFrameItem Returns CameraFrameItemData"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrameData.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrameData.html",
+    "title": "Struct VSTCameraFrameData | Core",
+    "keywords": "Struct VSTCameraFrameData Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public struct VSTCameraFrameData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields cameraFrameItem reserved sixDofPose Methods ToString()"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrameData.reserved.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrameData.reserved.html",
+    "title": "Field reserved | Core",
+    "keywords": "Field reserved Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public byte[] reserved Returns byte[]"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrameData.sixDofPose.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrameData.sixDofPose.html",
+    "title": "Field sixDofPose | Core",
+    "keywords": "Field sixDofPose Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public SixDofPoseData sixDofPose Returns SixDofPoseData"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraFrequencyType.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraFrequencyType.html",
+    "title": "Enum VSTCameraFrequencyType | Core",
+    "keywords": "Enum VSTCameraFrequencyType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum VSTCameraFrequencyType Fields VSTFrequency10Hz = 1 VSTFrequency24Hz = 2 VSTFrequency30Hz = 3 VSTFrequency8Hz = 0"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ToString.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cx.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cx.html",
+    "title": "Field cx | Core",
+    "keywords": "Field cx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public float cx Returns float"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cy.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cy.html",
+    "title": "Field cy | Core",
+    "keywords": "Field cy Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public float cy Returns float"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fx.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fx.html",
+    "title": "Field fx | Core",
+    "keywords": "Field fx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public float fx Returns float"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fy.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fy.html",
+    "title": "Field fy | Core",
+    "keywords": "Field fy Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public float fy Returns float"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.html",
+    "title": "Struct VSTCameraIntrinsicExtrinsicData | Core",
+    "keywords": "Struct VSTCameraIntrinsicExtrinsicData Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public struct VSTCameraIntrinsicExtrinsicData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields cx cy fx fy rw rx ry rz x y z Methods ToString()"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rw.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rw.html",
+    "title": "Field rw | Core",
+    "keywords": "Field rw Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rw Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rx.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rx.html",
+    "title": "Field rx | Core",
+    "keywords": "Field rx Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rx Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ry.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ry.html",
+    "title": "Field ry | Core",
+    "keywords": "Field ry Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double ry Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rz.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rz.html",
+    "title": "Field rz | Core",
+    "keywords": "Field rz Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double rz Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.x.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.x.html",
+    "title": "Field x | Core",
+    "keywords": "Field x Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double x Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.y.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.y.html",
+    "title": "Field y | Core",
+    "keywords": "Field y Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double y Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.z.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.z.html",
+    "title": "Field z | Core",
+    "keywords": "Field z Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public double z Returns double"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraResolutionType.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraResolutionType.html",
+    "title": "Enum VSTCameraResolutionType | Core",
+    "keywords": "Enum VSTCameraResolutionType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum VSTCameraResolutionType Fields VSTResolution1320_1232 = 1 VSTResolution2640_2464 = 2 VSTResolution660_616 = 0"
+  },
+  "api/YVR.Enterprise.Camera.VSTCameraSourceType.html": {
+    "href": "api/YVR.Enterprise.Camera.VSTCameraSourceType.html",
+    "title": "Enum VSTCameraSourceType | Core",
+    "keywords": "Enum VSTCameraSourceType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum VSTCameraSourceType Fields VSTCameraBothEyes = 2 VSTCameraLeftEye = 0 VSTCameraRightEye = 1"
+  },
+  "api/YVR.Enterprise.Camera.YVREyeNumberType.html": {
+    "href": "api/YVR.Enterprise.Camera.YVREyeNumberType.html",
+    "title": "Enum YVREyeNumberType | Core",
+    "keywords": "Enum YVREyeNumberType Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public enum YVREyeNumberType Fields EyeNumber = 2 LeftEye = 0 RightEye = 1"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.AcquireTrackingCameraFrame.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.AcquireTrackingCameraFrame.html",
+    "title": "Method AcquireTrackingCameraFrame | Core",
+    "keywords": "Method AcquireTrackingCameraFrame Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll AcquireTrackingCameraFrame(TrackingCameraType, ref CameraFrameItemData) public static void AcquireTrackingCameraFrame(TrackingCameraType type, ref CameraFrameItemData frameItemData) Parameters type TrackingCameraType frameItemData CameraFrameItemData"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.CloseTrackingCamera.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.CloseTrackingCamera.html",
+    "title": "Method CloseTrackingCamera | Core",
+    "keywords": "Method CloseTrackingCamera Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll CloseTrackingCamera(TrackingCameraType) public static void CloseTrackingCamera(TrackingCameraType type) Parameters type TrackingCameraType"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.OpenTrackingCamera.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.OpenTrackingCamera.html",
+    "title": "Method OpenTrackingCamera | Core",
+    "keywords": "Method OpenTrackingCamera Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll OpenTrackingCamera(TrackingCameraType) public static void OpenTrackingCamera(TrackingCameraType type) Parameters type TrackingCameraType"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SetTrackingCameraFrequency.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SetTrackingCameraFrequency.html",
+    "title": "Method SetTrackingCameraFrequency | Core",
+    "keywords": "Method SetTrackingCameraFrequency Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetTrackingCameraFrequency(TrackingCameraType, int) public static void SetTrackingCameraFrequency(TrackingCameraType type, int frequency) Parameters type TrackingCameraType frequency int"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SubscribeFrame.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SubscribeFrame.html",
+    "title": "Method SubscribeFrame | Core",
+    "keywords": "Method SubscribeFrame Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SubscribeFrame(TrackingCameraType, Action<CameraFrameItemData>) public static void SubscribeFrame(TrackingCameraType type, Action<CameraFrameItemData> callback) Parameters type TrackingCameraType callback Action<CameraFrameItemData>"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.UnsubscribeFrame.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.UnsubscribeFrame.html",
+    "title": "Method UnsubscribeFrame | Core",
+    "keywords": "Method UnsubscribeFrame Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll UnsubscribeFrame(TrackingCameraType) public static void UnsubscribeFrame(TrackingCameraType type) Parameters type TrackingCameraType"
+  },
+  "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.html",
+    "title": "Class YVRTrackingCameraPlugin | Core",
+    "keywords": "Class YVRTrackingCameraPlugin Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public static class YVRTrackingCameraPlugin Inheritance object YVRTrackingCameraPlugin Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods AcquireTrackingCameraFrame(TrackingCameraType, ref CameraFrameItemData) CloseTrackingCamera(TrackingCameraType) OpenTrackingCamera(TrackingCameraType) SetTrackingCameraFrequency(TrackingCameraType, int) SubscribeFrame(TrackingCameraType, Action<CameraFrameItemData>) UnsubscribeFrame(TrackingCameraType)"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.AcquireVSTCameraFrame.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.AcquireVSTCameraFrame.html",
+    "title": "Method AcquireVSTCameraFrame | Core",
+    "keywords": "Method AcquireVSTCameraFrame Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll AcquireVSTCameraFrame(ref VSTCameraFrameData) public static void AcquireVSTCameraFrame(ref VSTCameraFrameData frameData) Parameters frameData VSTCameraFrameData"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.CloseVSTCamera.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.CloseVSTCamera.html",
+    "title": "Method CloseVSTCamera | Core",
+    "keywords": "Method CloseVSTCamera Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll CloseVSTCamera() public static void CloseVSTCamera()"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetRenderScale.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetRenderScale.html",
+    "title": "Method GetRenderScale | Core",
+    "keywords": "Method GetRenderScale Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetRenderScale(string, ref YVRRenderScaleBuffers) public static void GetRenderScale(string packageName, ref YVRRenderScaleBuffers renderScaleBuffers) Parameters packageName string renderScaleBuffers YVRRenderScaleBuffers"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFormat.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFormat.html",
+    "title": "Method GetVSTCameraFormat | Core",
+    "keywords": "Method GetVSTCameraFormat Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetVSTCameraFormat(ref VSTCameraFormatType) public static void GetVSTCameraFormat(ref VSTCameraFormatType formatType) Parameters formatType VSTCameraFormatType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFrequency.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFrequency.html",
+    "title": "Method GetVSTCameraFrequency | Core",
+    "keywords": "Method GetVSTCameraFrequency Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetVSTCameraFrequency(ref VSTCameraFrequencyType) public static void GetVSTCameraFrequency(ref VSTCameraFrequencyType freq) Parameters freq VSTCameraFrequencyType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraIntrinsicExtrinsic.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraIntrinsicExtrinsic.html",
+    "title": "Method GetVSTCameraIntrinsicExtrinsic | Core",
+    "keywords": "Method GetVSTCameraIntrinsicExtrinsic Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetVSTCameraIntrinsicExtrinsic(YVREyeNumberType, ref VSTCameraIntrinsicExtrinsicData) public static void GetVSTCameraIntrinsicExtrinsic(YVREyeNumberType eyeNumberType, ref VSTCameraIntrinsicExtrinsicData data) Parameters eyeNumberType YVREyeNumberType data VSTCameraIntrinsicExtrinsicData"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraOutputSource.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraOutputSource.html",
+    "title": "Method GetVSTCameraOutputSource | Core",
+    "keywords": "Method GetVSTCameraOutputSource Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetVSTCameraOutputSource(ref VSTCameraSourceType) public static void GetVSTCameraOutputSource(ref VSTCameraSourceType sourceType) Parameters sourceType VSTCameraSourceType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraResolution.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraResolution.html",
+    "title": "Method GetVSTCameraResolution | Core",
+    "keywords": "Method GetVSTCameraResolution Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll GetVSTCameraResolution(ref VSTCameraResolutionType) public static void GetVSTCameraResolution(ref VSTCameraResolutionType resolution) Parameters resolution VSTCameraResolutionType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.OpenVSTCamera.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.OpenVSTCamera.html",
+    "title": "Method OpenVSTCamera | Core",
+    "keywords": "Method OpenVSTCamera Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll OpenVSTCamera() public static void OpenVSTCamera()"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetRenderScale.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetRenderScale.html",
+    "title": "Method SetRenderScale | Core",
+    "keywords": "Method SetRenderScale Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetRenderScale(string, YVRRenderScale) public static void SetRenderScale(string packageName, YVRRenderScale renderScale) Parameters packageName string renderScale YVRRenderScale"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFormat.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFormat.html",
+    "title": "Method SetVSTCameraFormat | Core",
+    "keywords": "Method SetVSTCameraFormat Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetVSTCameraFormat(VSTCameraFormatType) public static void SetVSTCameraFormat(VSTCameraFormatType formatType) Parameters formatType VSTCameraFormatType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFrequency.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFrequency.html",
+    "title": "Method SetVSTCameraFrequency | Core",
+    "keywords": "Method SetVSTCameraFrequency Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetVSTCameraFrequency(VSTCameraFrequencyType) public static void SetVSTCameraFrequency(VSTCameraFrequencyType freq) Parameters freq VSTCameraFrequencyType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraOutputSource.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraOutputSource.html",
+    "title": "Method SetVSTCameraOutputSource | Core",
+    "keywords": "Method SetVSTCameraOutputSource Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetVSTCameraOutputSource(VSTCameraSourceType) public static void SetVSTCameraOutputSource(VSTCameraSourceType sourceType) Parameters sourceType VSTCameraSourceType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraResolution.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraResolution.html",
+    "title": "Method SetVSTCameraResolution | Core",
+    "keywords": "Method SetVSTCameraResolution Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll SetVSTCameraResolution(VSTCameraResolutionType) public static void SetVSTCameraResolution(VSTCameraResolutionType resolution) Parameters resolution VSTCameraResolutionType"
+  },
+  "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.html": {
+    "href": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.html",
+    "title": "Class YVRVSTCameraPlugin | Core",
+    "keywords": "Class YVRVSTCameraPlugin Namespace YVR.Enterprise.Camera Assembly YVR.Enterprise.Runtime.dll public static class YVRVSTCameraPlugin Inheritance object YVRVSTCameraPlugin Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods AcquireVSTCameraFrame(ref VSTCameraFrameData) CloseVSTCamera() GetRenderScale(string, ref YVRRenderScaleBuffers) GetVSTCameraFormat(ref VSTCameraFormatType) GetVSTCameraFrequency(ref VSTCameraFrequencyType) GetVSTCameraIntrinsicExtrinsic(YVREyeNumberType, ref VSTCameraIntrinsicExtrinsicData) GetVSTCameraOutputSource(ref VSTCameraSourceType) GetVSTCameraResolution(ref VSTCameraResolutionType) OpenVSTCamera() SetRenderScale(string, YVRRenderScale) SetVSTCameraFormat(VSTCameraFormatType) SetVSTCameraFrequency(VSTCameraFrequencyType) SetVSTCameraOutputSource(VSTCameraSourceType) SetVSTCameraResolution(VSTCameraResolutionType)"
+  },
+  "api/YVR.Enterprise.Camera.html": {
+    "href": "api/YVR.Enterprise.Camera.html",
+    "title": "Namespace YVR.Enterprise.Camera | Core",
+    "keywords": "Namespace YVR.Enterprise.Camera Classes YVRTrackingCameraPlugin YVRVSTCameraPlugin Structs CameraFrameItemData SixDofPoseData VSTCameraFrameData VSTCameraIntrinsicExtrinsicData Enums TrackingCameraType VSTCameraFormatType VSTCameraFrequencyType VSTCameraResolutionType VSTCameraSourceType YVREyeNumberType"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.changeThirdHomeState.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.changeThirdHomeState.html",
+    "title": "Field changeThirdHomeState | Core",
+    "keywords": "Field changeThirdHomeState Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string changeThirdHomeState = \"changeThirdHomeState\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.className.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.className.html",
+    "title": "Property className | Core",
+    "keywords": "Property className Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll className public string className { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getBTMac.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getBTMac.html",
+    "title": "Field getBTMac | Core",
+    "keywords": "Field getBTMac Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getBTMac = \"getBtMac\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getBrightness.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getBrightness.html",
+    "title": "Field getBrightness | Core",
+    "keywords": "Field getBrightness Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getBrightness = \"getBrightness\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getDeviceModel.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getDeviceModel.html",
+    "title": "Field getDeviceModel | Core",
+    "keywords": "Field getDeviceModel Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getDeviceModel = \"getDeviceModel\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getDeviceSn.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getDeviceSn.html",
+    "title": "Field getDeviceSn | Core",
+    "keywords": "Field getDeviceSn Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getDeviceSn = \"getDeviceSn\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getInstance.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getInstance.html",
+    "title": "Field getInstance | Core",
+    "keywords": "Field getInstance Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getInstance = \"getInstance\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getMaxVolume.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getMaxVolume.html",
+    "title": "Field getMaxVolume | Core",
+    "keywords": "Field getMaxVolume Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getMaxVolume = \"getSystemMaxAudioVolume\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getOSVersion.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getOSVersion.html",
+    "title": "Field getOSVersion | Core",
+    "keywords": "Field getOSVersion Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getOSVersion = \"getSoftwareVersion\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getVolume.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getVolume.html",
+    "title": "Field getVolume | Core",
+    "keywords": "Field getVolume Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getVolume = \"getSystemAudioVolume\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.getWifiMac.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.getWifiMac.html",
+    "title": "Field getWifiMac | Core",
+    "keywords": "Field getWifiMac Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string getWifiMac = \"getWifiMac\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.html",
+    "title": "Class DeviceElements | Core",
+    "keywords": "Class DeviceElements Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public class DeviceElements : IAJCElements Inheritance object DeviceElements Implements IAJCElements Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields changeThirdHomeState getBTMac getBrightness getDeviceModel getDeviceSn getInstance getMaxVolume getOSVersion getVolume getWifiMac init isBrightnessAdjustmentRestricted isVolumeAdjustmentRestricted restrictBrightnessAdjustment restrictVolumeAdjustment setBrightness setVolume Properties className"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.init.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.init.html",
+    "title": "Field init | Core",
+    "keywords": "Field init Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string init = \"init\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.isBrightnessAdjustmentRestricted.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.isBrightnessAdjustmentRestricted.html",
+    "title": "Field isBrightnessAdjustmentRestricted | Core",
+    "keywords": "Field isBrightnessAdjustmentRestricted Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string isBrightnessAdjustmentRestricted = \"isBrightnessAdjustmentRestricted\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.isVolumeAdjustmentRestricted.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.isVolumeAdjustmentRestricted.html",
+    "title": "Field isVolumeAdjustmentRestricted | Core",
+    "keywords": "Field isVolumeAdjustmentRestricted Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string isVolumeAdjustmentRestricted = \"isVolumeAdjustmentRestricted\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.restrictBrightnessAdjustment.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.restrictBrightnessAdjustment.html",
+    "title": "Field restrictBrightnessAdjustment | Core",
+    "keywords": "Field restrictBrightnessAdjustment Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string restrictBrightnessAdjustment = \"restrictBrightnessAdjustment\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.restrictVolumeAdjustment.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.restrictVolumeAdjustment.html",
+    "title": "Field restrictVolumeAdjustment | Core",
+    "keywords": "Field restrictVolumeAdjustment Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string restrictVolumeAdjustment = \"restrictVolumeAdjustment\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.setBrightness.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.setBrightness.html",
+    "title": "Field setBrightness | Core",
+    "keywords": "Field setBrightness Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string setBrightness = \"setBrightness\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceElements.setVolume.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceElements.setVolume.html",
+    "title": "Field setVolume | Core",
+    "keywords": "Field setVolume Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public const string setVolume = \"setSystemAudioVolume\" Returns string"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.OnInit.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.OnInit.html",
+    "title": "Method OnInit | Core",
+    "keywords": "Method OnInit Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll OnInit() protected override void OnInit()"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.brightness.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.brightness.html",
+    "title": "Property brightness | Core",
+    "keywords": "Property brightness Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll brightness public int brightness { get; set; } Property Value int"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.brightnessAdjustmentRestricted.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.brightnessAdjustmentRestricted.html",
+    "title": "Property brightnessAdjustmentRestricted | Core",
+    "keywords": "Property brightnessAdjustmentRestricted Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll brightnessAdjustmentRestricted public bool brightnessAdjustmentRestricted { get; set; } Property Value bool"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.btMac.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.btMac.html",
+    "title": "Property btMac | Core",
+    "keywords": "Property btMac Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll btMac public string btMac { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.deviceModel.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.deviceModel.html",
+    "title": "Property deviceModel | Core",
+    "keywords": "Property deviceModel Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll deviceModel public string deviceModel { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.deviceSn.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.deviceSn.html",
+    "title": "Property deviceSn | Core",
+    "keywords": "Property deviceSn Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll deviceSn public string deviceSn { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.html",
+    "title": "Class DeviceMgr | Core",
+    "keywords": "Class DeviceMgr Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll public class DeviceMgr : AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>, IAJCMgr Inheritance object Singleton<DeviceMgr> AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements> DeviceMgr Implements IAJCMgr Inherited Members AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.ajcBase AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.constructorArgs AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.elements AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.OnInit() AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.ConfigureAJCFactory() AJCMgrSingleton<DeviceMgr, AJCMocker, DeviceElements>.GetMocker() Singleton<DeviceMgr>.instance Singleton<DeviceMgr>.createdInstance Singleton<DeviceMgr>.Reset() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties brightness brightnessAdjustmentRestricted btMac deviceModel deviceSn maxVolume osVersion volume volumeAdjustmentRestricted wifiMac Methods OnInit()"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.maxVolume.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.maxVolume.html",
+    "title": "Property maxVolume | Core",
+    "keywords": "Property maxVolume Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll maxVolume public int maxVolume { get; } Property Value int"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.osVersion.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.osVersion.html",
+    "title": "Property osVersion | Core",
+    "keywords": "Property osVersion Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll osVersion public string osVersion { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.volume.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.volume.html",
+    "title": "Property volume | Core",
+    "keywords": "Property volume Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll volume public int volume { get; set; } Property Value int"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.volumeAdjustmentRestricted.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.volumeAdjustmentRestricted.html",
+    "title": "Property volumeAdjustmentRestricted | Core",
+    "keywords": "Property volumeAdjustmentRestricted Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll volumeAdjustmentRestricted public bool volumeAdjustmentRestricted { get; set; } Property Value bool"
+  },
+  "api/YVR.Enterprise.Device.DeviceMgr.wifiMac.html": {
+    "href": "api/YVR.Enterprise.Device.DeviceMgr.wifiMac.html",
+    "title": "Property wifiMac | Core",
+    "keywords": "Property wifiMac Namespace YVR.Enterprise.Device Assembly YVR.Enterprise.Runtime.dll wifiMac public string wifiMac { get; } Property Value string"
+  },
+  "api/YVR.Enterprise.Device.html": {
+    "href": "api/YVR.Enterprise.Device.html",
+    "title": "Namespace YVR.Enterprise.Device | Core",
+    "keywords": "Namespace YVR.Enterprise.Device Classes DeviceElements DeviceMgr"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.-ctor.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.-ctor.html",
+    "title": "Constructor LBEAndroidPlugin | Core",
+    "keywords": "Constructor LBEAndroidPlugin Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll LBEAndroidPlugin() public LBEAndroidPlugin()"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetGroundDistance.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetGroundDistance.html",
+    "title": "Method GetGroundDistance | Core",
+    "keywords": "Method GetGroundDistance Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetGroundDistance() public override float GetGroundDistance() Returns float"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetRecenterEnable.html",
+    "title": "Method GetRecenterEnable | Core",
+    "keywords": "Method GetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetRecenterEnable() public override bool GetRecenterEnable() Returns bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerDetectionEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerDetectionEnable.html",
+    "title": "Method SetMarkerDetectionEnable | Core",
+    "keywords": "Method SetMarkerDetectionEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerDetectionEnable(bool) public override void SetMarkerDetectionEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerTrackingUpdateCallback.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerTrackingUpdateCallback.html",
+    "title": "Method SetMarkerTrackingUpdateCallback | Core",
+    "keywords": "Method SetMarkerTrackingUpdateCallback Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) public override void SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData> callback) Parameters callback Action<MarkerTrackingUpdateData>"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetRecenterEnable.html",
+    "title": "Method SetRecenterEnable | Core",
+    "keywords": "Method SetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetRecenterEnable(bool) public override void SetRecenterEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.html",
+    "title": "Class LBEAndroidPlugin | Core",
+    "keywords": "Class LBEAndroidPlugin Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll public class LBEAndroidPlugin : LBEPlugin Inheritance object LBEPlugin LBEAndroidPlugin Inherited Members LBEPlugin.spaceUuidMaxSize LBEPlugin.instance object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors LBEAndroidPlugin() Fields trackingUpdateAction Properties trackingOriginMode Methods GetGroundDistance() GetRecenterEnable() SetMarkerDetectionEnable(bool) SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) SetRecenterEnable(bool)"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingOriginMode.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingOriginMode.html",
+    "title": "Property trackingOriginMode | Core",
+    "keywords": "Property trackingOriginMode Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll trackingOriginMode public static TrackingOriginModeFlags trackingOriginMode { get; } Property Value TrackingOriginModeFlags"
+  },
+  "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingUpdateAction.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingUpdateAction.html",
+    "title": "Field trackingUpdateAction | Core",
+    "keywords": "Field trackingUpdateAction Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll public static Action<MarkerTrackingUpdateData> trackingUpdateAction Returns Action<MarkerTrackingUpdateData>"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetGroundDistance.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetGroundDistance.html",
+    "title": "Method GetGroundDistance | Core",
+    "keywords": "Method GetGroundDistance Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetGroundDistance() public override float GetGroundDistance() Returns float"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetRecenterEnable.html",
+    "title": "Method GetRecenterEnable | Core",
+    "keywords": "Method GetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetRecenterEnable() public override bool GetRecenterEnable() Returns bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetMarkerDetectionEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetMarkerDetectionEnable.html",
+    "title": "Method SetMarkerDetectionEnable | Core",
+    "keywords": "Method SetMarkerDetectionEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerDetectionEnable(bool) public override void SetMarkerDetectionEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetMarkerTrackingUpdateCallback.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetMarkerTrackingUpdateCallback.html",
+    "title": "Method SetMarkerTrackingUpdateCallback | Core",
+    "keywords": "Method SetMarkerTrackingUpdateCallback Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) public override void SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData> callback) Parameters callback Action<MarkerTrackingUpdateData>"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.SetRecenterEnable.html",
+    "title": "Method SetRecenterEnable | Core",
+    "keywords": "Method SetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetRecenterEnable(bool) public override void SetRecenterEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEDefaultPlugin.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.html",
+    "title": "Class LBEDefaultPlugin | Core",
+    "keywords": "Class LBEDefaultPlugin Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll public class LBEDefaultPlugin : LBEPlugin Inheritance object LBEPlugin LBEDefaultPlugin Inherited Members LBEPlugin.spaceUuidMaxSize LBEPlugin.instance object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetGroundDistance() GetRecenterEnable() SetMarkerDetectionEnable(bool) SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) SetRecenterEnable(bool)"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.GetGroundDistance.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.GetGroundDistance.html",
+    "title": "Method GetGroundDistance | Core",
+    "keywords": "Method GetGroundDistance Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetGroundDistance() public abstract float GetGroundDistance() Returns float"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.GetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.GetRecenterEnable.html",
+    "title": "Method GetRecenterEnable | Core",
+    "keywords": "Method GetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll GetRecenterEnable() public abstract bool GetRecenterEnable() Returns bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerDetectionEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerDetectionEnable.html",
+    "title": "Method SetMarkerDetectionEnable | Core",
+    "keywords": "Method SetMarkerDetectionEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerDetectionEnable(bool) public abstract void SetMarkerDetectionEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerTrackingUpdateCallback.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerTrackingUpdateCallback.html",
+    "title": "Method SetMarkerTrackingUpdateCallback | Core",
+    "keywords": "Method SetMarkerTrackingUpdateCallback Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) public abstract void SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData> callback) Parameters callback Action<MarkerTrackingUpdateData>"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.SetRecenterEnable.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.SetRecenterEnable.html",
+    "title": "Method SetRecenterEnable | Core",
+    "keywords": "Method SetRecenterEnable Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll SetRecenterEnable(bool) public abstract void SetRecenterEnable(bool enable) Parameters enable bool"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.html",
+    "title": "Class LBEPlugin | Core",
+    "keywords": "Class LBEPlugin Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll public abstract class LBEPlugin Inheritance object LBEPlugin Derived LBEAndroidPlugin LBEDefaultPlugin Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields spaceUuidMaxSize Properties instance Methods GetGroundDistance() GetRecenterEnable() SetMarkerDetectionEnable(bool) SetMarkerTrackingUpdateCallback(Action<MarkerTrackingUpdateData>) SetRecenterEnable(bool)"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.instance.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.instance.html",
+    "title": "Property instance | Core",
+    "keywords": "Property instance Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll instance public static LBEPlugin instance { get; } Property Value LBEPlugin"
+  },
+  "api/YVR.Enterprise.LBE.LBEPlugin.spaceUuidMaxSize.html": {
+    "href": "api/YVR.Enterprise.LBE.LBEPlugin.spaceUuidMaxSize.html",
+    "title": "Field spaceUuidMaxSize | Core",
+    "keywords": "Field spaceUuidMaxSize Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll [ExcludeFromDocs] public const int spaceUuidMaxSize = 4 Returns int"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.confidence.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.confidence.html",
+    "title": "Field confidence | Core",
+    "keywords": "Field confidence Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll The confidence of marker tracking public float confidence Returns float The confidence of marker tracking"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.html",
+    "title": "Struct MarkerTrackingUpdateData | Core",
+    "keywords": "Struct MarkerTrackingUpdateData Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll public struct MarkerTrackingUpdateData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields confidence The confidence of marker tracking markerId Marker ID markerPose Marker's pose in world space markerType region The position of marker's four corners in world space"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerId.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerId.html",
+    "title": "Field markerId | Core",
+    "keywords": "Field markerId Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll Marker ID public long markerId Returns long Marker ID"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerPose.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerPose.html",
+    "title": "Field markerPose | Core",
+    "keywords": "Field markerPose Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll Marker's pose in world space public XRPose markerPose Returns XRPose Marker's pose in world space"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerType.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerType.html",
+    "title": "Field markerType | Core",
+    "keywords": "Field markerType Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll [ExcludeFromDocs] public int markerType Returns int"
+  },
+  "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.region.html": {
+    "href": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.region.html",
+    "title": "Field region | Core",
+    "keywords": "Field region Namespace YVR.Enterprise.LBE Assembly YVR.Enterprise.Runtime.dll The position of marker's four corners in world space public Vector3[] region Returns Vector3[] The position of marker's four corners in world space"
+  },
+  "api/YVR.Enterprise.LBE.html": {
+    "href": "api/YVR.Enterprise.LBE.html",
+    "title": "Namespace YVR.Enterprise.LBE | Core",
+    "keywords": "Namespace YVR.Enterprise.LBE Classes LBEAndroidPlugin LBEDefaultPlugin LBEPlugin Structs MarkerTrackingUpdateData"
+  },
+  "api/YVR.Enterprise.Render.RenderScale.ToString.html": {
+    "href": "api/YVR.Enterprise.Render.RenderScale.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Render.RenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.RenderScale.html",
+    "title": "Struct RenderScale | Core",
+    "keywords": "Struct RenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public struct RenderScale Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields normal quadViews Methods ToString()"
+  },
+  "api/YVR.Enterprise.Render.RenderScale.normal.html": {
+    "href": "api/YVR.Enterprise.Render.RenderScale.normal.html",
+    "title": "Field normal | Core",
+    "keywords": "Field normal Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public YVRRenderScaleNormal normal Returns YVRRenderScaleNormal"
+  },
+  "api/YVR.Enterprise.Render.RenderScale.quadViews.html": {
+    "href": "api/YVR.Enterprise.Render.RenderScale.quadViews.html",
+    "title": "Field quadViews | Core",
+    "keywords": "Field quadViews Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public YVRRenderScaleQuadViews quadViews Returns YVRRenderScaleQuadViews"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderMgr.GetRenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderMgr.GetRenderScale.html",
+    "title": "Method GetRenderScale | Core",
+    "keywords": "Method GetRenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll GetRenderScale(string) public static List<YVRRenderScale> GetRenderScale(string packageName) Parameters packageName string Returns List<YVRRenderScale>"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderMgr.SetRenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderMgr.SetRenderScale.html",
+    "title": "Method SetRenderScale | Core",
+    "keywords": "Method SetRenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll SetRenderScale(string, YVRRenderScale) public static void SetRenderScale(string packageName, YVRRenderScale scale) Parameters packageName string scale YVRRenderScale"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderMgr.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderMgr.html",
+    "title": "Class YVRRenderMgr | Core",
+    "keywords": "Class YVRRenderMgr Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public class YVRRenderMgr Inheritance object YVRRenderMgr Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetRenderScale(string) SetRenderScale(string, YVRRenderScale)"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.ToString.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.html",
+    "title": "Struct YVRRenderScale | Core",
+    "keywords": "Struct YVRRenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public struct YVRRenderScale Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields maxRenderScale minRenderScale overrideResolution renderScale useQuadViews Methods ToString()"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.maxRenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.maxRenderScale.html",
+    "title": "Field maxRenderScale | Core",
+    "keywords": "Field maxRenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public float maxRenderScale Returns float"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.minRenderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.minRenderScale.html",
+    "title": "Field minRenderScale | Core",
+    "keywords": "Field minRenderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public float minRenderScale Returns float"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.overrideResolution.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.overrideResolution.html",
+    "title": "Field overrideResolution | Core",
+    "keywords": "Field overrideResolution Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public bool overrideResolution Returns bool"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.renderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.renderScale.html",
+    "title": "Field renderScale | Core",
+    "keywords": "Field renderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public RenderScale renderScale Returns RenderScale"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScale.useQuadViews.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScale.useQuadViews.html",
+    "title": "Field useQuadViews | Core",
+    "keywords": "Field useQuadViews Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public bool useQuadViews Returns bool"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.html",
+    "title": "Struct YVRRenderScaleBuffers | Core",
+    "keywords": "Struct YVRRenderScaleBuffers Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public struct YVRRenderScaleBuffers Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields renderScale renderScaleCapacityInput renderScaleCountOutput"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScale.html",
+    "title": "Field renderScale | Core",
+    "keywords": "Field renderScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public IntPtr renderScale Returns IntPtr"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCapacityInput.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCapacityInput.html",
+    "title": "Field renderScaleCapacityInput | Core",
+    "keywords": "Field renderScaleCapacityInput Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public int renderScaleCapacityInput Returns int"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCountOutput.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCountOutput.html",
+    "title": "Field renderScaleCountOutput | Core",
+    "keywords": "Field renderScaleCountOutput Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public int renderScaleCountOutput Returns int"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleNormal.ToString.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleNormal.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.html",
+    "title": "Struct YVRRenderScaleNormal | Core",
+    "keywords": "Struct YVRRenderScaleNormal Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public struct YVRRenderScaleNormal Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields normalScale Methods ToString()"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleNormal.normalScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.normalScale.html",
+    "title": "Field normalScale | Core",
+    "keywords": "Field normalScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public float normalScale Returns float"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.ToString.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.ToString.html",
+    "title": "Method ToString | Core",
+    "keywords": "Method ToString Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll ToString() public override string ToString() Returns string"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.html",
+    "title": "Struct YVRRenderScaleQuadViews | Core",
+    "keywords": "Struct YVRRenderScaleQuadViews Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public struct YVRRenderScaleQuadViews Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields innerScale outerScale Methods ToString()"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.innerScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.innerScale.html",
+    "title": "Field innerScale | Core",
+    "keywords": "Field innerScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public float innerScale Returns float"
+  },
+  "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.outerScale.html": {
+    "href": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.outerScale.html",
+    "title": "Field outerScale | Core",
+    "keywords": "Field outerScale Namespace YVR.Enterprise.Render Assembly YVR.Enterprise.Runtime.dll public float outerScale Returns float"
+  },
+  "api/YVR.Enterprise.Render.html": {
+    "href": "api/YVR.Enterprise.Render.html",
+    "title": "Namespace YVR.Enterprise.Render | Core",
+    "keywords": "Namespace YVR.Enterprise.Render Classes YVRRenderMgr Structs RenderScale YVRRenderScale YVRRenderScaleBuffers YVRRenderScaleNormal YVRRenderScaleQuadViews"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "",
+    "keywords": ""
+  }
+}
