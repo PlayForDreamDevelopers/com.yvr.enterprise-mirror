@@ -1,4 +1,44 @@
 {
+  "Documentation/Camera.html": {
+    "href": "Documentation/Camera.html",
+    "title": "Camera Data | Core",
+    "keywords": "Camera Data Note Refer to our open‑source project Camera Sample for more information. Camera data is divided into Tracking Camera Data and VST Camera Data. Important When the camera is opened, please ensure to close it when not in use to avoid resource wastage. Tracking Camera Data Tracking camera data can be obtained via [YVRTrackingCameraPlugin]. The main interfaces include: Interface Description OpenTrackingCamera Opens the tracking camera CloseTrackingCamera Closes the tracking camera SubscribeFrame Subscribes to camera frame data; callback returns a [CameraFrameItemData] UnsubscribeFrame Unsubscribes from camera frame data AcquireTrackingCameraFrame Acquires a camera frame SetTrackingCameraFrequency Sets the camera frame rate (type supports EyeTracking only) VST Camera Data VST camera data can be retrieved via [YVRVSTCameraPlugin]. The main interfaces include: Interface Description OpenVSTCamera Opens the VST camera CloseVSTCamera Closes the VST camera AcquireVSTCameraFrame Acquires a VST camera frame; returns [VSTFrameData] SetVSTCameraFrequency Sets the VST camera frame rate GetVSTCameraFrequency Gets the VST camera frame rate SetVSTCameraResolution Sets the VST camera resolution GetVSTCameraResolution Gets the VST camera resolution SetVSTCameraFormat Sets the VST camera format GetVSTCameraFormat Gets the VST camera format SetVSTCameraOutputSource Sets the VST camera output source GetVSTCameraOutputSource Gets the VST camera output source GetVSTCameraIntrinsicExtrinsic Gets the intrinsic and extrinsic parameters of the VST camera (returns [VSTCameraIntrinsicExtrinsicData])"
+  },
+  "Documentation/Device.html": {
+    "href": "Documentation/Device.html",
+    "title": "Device Information and Control | Core",
+    "keywords": "Device Information and Control Note Refer to our open‐source project Device Sample for more details. All device-related information and controls can be implemented via [DeviceMgr]. The following interfaces are supported. Items marked with * are writable (settable): Information Description btMac Bluetooth MAC address wifiMac Wi‑Fi MAC address deviceModel Device model deviceSn Device serial number osVersion Operating system version volume * Current volume maxVolume Maximum volume volumeAdjustmentRestricted * Volume adjustment restriction status brightness * Current brightness brightnessAdjustmentRestricted * Brightness adjustment restriction status"
+  },
+  "Documentation/Introduction.html": {
+    "href": "Documentation/Introduction.html",
+    "title": "Unity Enterprise SDK Introduction | Core",
+    "keywords": "Unity Enterprise SDK Introduction The Unity Enterprise SDK primarily provides the following features: Device Information and Control: Retrieve and manage device details such as Bluetooth MAC, Wi‑Fi MAC, device model, serial number, operating system version, volume, and brightness. LBE Support: Use the provided LBE interfaces to obtain ground distance, enable marker detection, and manage recentering. Camera Data: Access both tracking and VST camera data. This includes opening/closing cameras, subscribing/unsubscribing to frame data, and setting camera parameters (frame rate, resolution, format)."
+  },
+  "Documentation/LBE.html": {
+    "href": "Documentation/LBE.html",
+    "title": "Location Based Entertainment (LBE) Support | Core",
+    "keywords": "Location Based Entertainment (LBE) Support Note For more information, please refer to our open source project LBE Sample. To utilize LBE-related interfaces, first enable the \"Large Space Support\" option on the YVRManager script: LBE-related interfaces are defined in LBEPlugin and currently include: Interface Description GetGroundDistance Retrieves the ground distance SetMarkerDetectionEnable Enables or disables marker detection SetMarkerTrackingUpdateCallback Registers a callback for marker tracking updates. The callback is triggered when markers are detected, with the parameter containing MarkerTrackingUpdateData structure data SetRecenterEnable Enables or disables recentering GetRecenterEnable Gets the current recentering status Example of registering a marker callback: // ...existing code... LBEPlugin.instance.SetMarkerDetectionEnable(true); LBEPlugin.instance.SetMarkerTrackingUpdateCallback(OnReceiveMarkerTrackingUpdateData); private void OnReceiveMarkerTrackingUpdateData(MarkerTrackingUpdateData data) { // ...existing code... }"
+  },
+  "Documentation_CN/Camera.html": {
+    "href": "Documentation_CN/Camera.html",
+    "title": "相机数据 | Core",
+    "keywords": "相机数据 Note 可参考我们的开源项目 相机 示例 获取更多信息 相机数据可以再进一步分为追踪相机数据和 VST 相机数据。 Important 当打开相机后，请确保在不使用时关闭相机，以避免资源浪费。 追踪相机数据 追踪相机的数据，可以通过 YVRTrackingCameraPlugin 获取，目前主要包含有以下接口： 接口 说明 OpenTrackingCamera 打开追踪相机 CloseTrackingCamera 关闭追踪相机 SubscribeFrame 订阅相机帧数据，当回调触发时返回参数 CameraFrameItemData UnsubscribeFrame 取消订阅相机帧数据 AcquireTrackingCameraFrame 获取相机帧数据 SetTrackingCameraFrequency 设置相机帧率 目前 SetTrackingCameraFrequency 的类型仅支持 TrackingCameraType.EyeTracking VST 相机数据 VST 相机的数据，可以通过 YVRVSTCameraPlugin 获取，目前主要包含有以下接口： 接口 说明 OpenVSTCamera 打开 VST 相机 CloseVSTCamera 关闭 VST 相机 AcquireVSTCameraFrame 获取 VST 相机帧数据，返回 VSTFrameData SetVSTCameraFrequency 设置 VST 相机帧率 GetVSTCameraFrequency 获取 VST 相机帧率 SetVSTCameraResolution 设置 VST 相机分辨率 GetVSTCameraResolution 获取 VST 相机分辨 SetVSTCameraFormat 设置 VST 相机格式 GetVSTCameraFormat 获取 VST 相机格式 SetVSTCameraOutputSource 设置 VST 相机输出源 GetVSTCameraOutputSource 获取 VST 相机输出源 GetVSTCameraIntrinsicExtrinsic 获取 VST 相机内外参数，返回 VSTCameraIntrinsicExtrinsicData"
+  },
+  "Documentation_CN/Device.html": {
+    "href": "Documentation_CN/Device.html",
+    "title": "设备信息与控制 | Core",
+    "keywords": "设备信息与控制 Note 可参考我们的开源项目 设备示例 获取更多信息 所有设备相关的信息和控制都可以通过 DeviceMgr 实现，支持的接口有，其中带 * 的表示该数据是可写入的（可设置）： 信息 说明 btMac 蓝牙 MAC 地址 wifiMac Wi-Fi MAC 地址 deviceModel 设备型号 deviceSn 设备序列号 osVersion 操作系统版本 volume * 当前音量 maxVolume 最大音量 volumeAdjustmentRestricted * 音量调节是否受限 brightness * 当前亮度 brightnessAdjustmentRestricted * 亮度调节是否受限"
+  },
+  "Documentation_CN/Introduction.html": {
+    "href": "Documentation_CN/Introduction.html",
+    "title": "Unity 企业版 SDK 介绍 | Core",
+    "keywords": "Unity 企业版 SDK 介绍 Unity 企业版 SDK 主要提供了以下功能： 设备信息与控制：通过 DeviceMgr 获取和控制设备的各种信息，如蓝牙 MAC 地址、Wi-Fi MAC 地址、设备型号、设备序列号、操作系统版本、音量、亮度等。 大空间(LBE) 支持：通过 LBEPlugin 提供的大空间支持接口，可以获取地面距离、设置标记检测、设置重新定位等功能。 相机数据：通过 YVRTrackingCameraPlugin 和 YVRVSTCameraPlugin 获取追踪相机和 VST 相机的数据，包括打开/关闭相机、订阅/取消订阅相机帧数据、设置相机帧率、分辨率、格式等。"
+  },
+  "Documentation_CN/LBE.html": {
+    "href": "Documentation_CN/LBE.html",
+    "title": "大空间(LBE) 支持 | Core",
+    "keywords": "大空间(LBE) 支持 Note 可参考我们的开源项目 LBE 示例 获取更多信息 为使用 LBE 相关的接口，你首先需要勾选 YVRManager 脚本上的 Large Space Support 选项： LBE 相关的接口都定义在 LBEPlugin 中，目前主要包含有一下接口： 接口 说明 GetGroundDistance 获取地面距离 SetMarkerDetectionEnable 设置标记检测是否启用 SetMarkerTrackingUpdateCallback 设置标记跟踪更新回调，回调在识别到标记时被调用，参数中包含 MarkerTrackingUpdateData 结构体 SetRecenterEnable 设置重新定位是否启用 GetRecenterEnable 获取重新定位是否启用状态 注册 Marker 触发回调的示例为： // ... LBEPlugin.instance.SetMarkerDetectionEnable(true); LBEPlugin.instance.SetMarkerTrackingUpdateCallback(OnReceiveMarkerTrackingUpdateData); private void OnReceiveMarkerTrackingUpdateData(MarkerTrackingUpdateData data) { // ... }"
+  },
   "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html": {
     "href": "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html",
     "title": "Method ToString | Core",

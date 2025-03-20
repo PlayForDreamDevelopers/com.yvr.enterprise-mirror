@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/GitLabs/t2_HbKmvq/0/unity/sdk-enterprise/github-sync/Documentation",
+  "source_base_path": "D:/GitLabs/t2_kQmYw7/0/unity/sdk-enterprise/github-sync/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -11,11 +11,157 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/Camera.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/Camera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/Introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/LBE.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/LBE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/assets/LBE/2025-03-19-15-30-05.png",
+      "output": {
+        "resource": {
+          "relative_path": "Documentation/assets/LBE/2025-03-19-15-30-05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../com.yvr.enterprise/Documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "Documentation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/Camera.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation_CN/Camera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation_CN/Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation_CN/Introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/LBE.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation_CN/LBE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/assets/LBE/2025-03-19-15-30-05.png",
+      "output": {
+        "resource": {
+          "relative_path": "Documentation_CN/assets/LBE/2025-03-19-15-30-05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../com.yvr.enterprise/Documentation_CN/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation_CN/toc.html"
+        },
+        ".json": {
+          "relative_path": "Documentation_CN/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html"
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.width.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.frameNumber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.html"
         }
       },
       "version": ""
@@ -55,7 +201,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestampq.html"
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.ToString.html"
         }
       },
       "version": ""
@@ -75,7 +221,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.html"
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.exposureDuration.html"
         }
       },
       "version": ""
@@ -115,27 +261,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.width.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.frameNumber.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.exposureDuration.html"
+          "relative_path": "api/YVR.Enterprise.Camera.CameraFrameItemData.soeTimestampq.html"
         }
       },
       "version": ""
@@ -145,67 +271,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_az.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ay.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ax.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wz.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wy.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wx.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ax.html"
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.confidence.html"
         }
       },
       "version": ""
@@ -255,46 +321,6 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.reserved.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.az.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.confidence.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.warning_flag.html"
         }
       },
@@ -315,7 +341,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ry.html"
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.x.html"
         }
       },
       "version": ""
@@ -365,7 +391,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.x.html"
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.az.html"
         }
       },
       "version": ""
@@ -376,6 +402,106 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.timestamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_az.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.w_ax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.wz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.reserved.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.SixDofPoseData.ToString.html"
         }
       },
       "version": ""
@@ -435,16 +561,6 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.reserved.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.html"
         }
       },
@@ -456,6 +572,16 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraFrameData.reserved.html"
         }
       },
       "version": ""
@@ -475,7 +601,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.z.html"
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.y.html"
         }
       },
       "version": ""
@@ -485,7 +611,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fx.html"
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.z.html"
         }
       },
       "version": ""
@@ -505,67 +631,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cx.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cy.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.x.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.y.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rw.html"
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.fx.html"
         }
       },
       "version": ""
@@ -596,6 +662,66 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.rw.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.x.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.cx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.VSTCameraIntrinsicExtrinsicData.ToString.html"
         }
       },
       "version": ""
@@ -635,27 +761,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SubscribeFrame.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.CloseTrackingCamera.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.UnsubscribeFrame.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.html"
         }
       },
       "version": ""
@@ -675,7 +781,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SetTrackingCameraFrequency.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.CloseTrackingCamera.html"
         }
       },
       "version": ""
@@ -685,7 +791,17 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SubscribeFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.UnsubscribeFrame.html"
         }
       },
       "version": ""
@@ -696,6 +812,86 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.AcquireTrackingCameraFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRTrackingCameraPlugin.SetTrackingCameraFrequency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFrequency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraResolution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraResolution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraOutputSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraOutputSource.html"
         }
       },
       "version": ""
@@ -735,17 +931,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.AcquireVSTCameraFrame.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.CloseVSTCamera.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraIntrinsicExtrinsic.html"
         }
       },
       "version": ""
@@ -765,57 +951,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraIntrinsicExtrinsic.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraOutputSource.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraFormat.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFormat.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.GetVSTCameraResolution.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraResolution.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.AcquireVSTCameraFrame.html"
         }
       },
       "version": ""
@@ -835,17 +971,7 @@
       "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraFrequency.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.SetVSTCameraOutputSource.html"
+          "relative_path": "api/YVR.Enterprise.Camera.YVRVSTCameraPlugin.CloseVSTCamera.html"
         }
       },
       "version": ""
@@ -865,7 +991,7 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.init.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.changeThirdHomeState.html"
         }
       },
       "version": ""
@@ -875,37 +1001,7 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getBrightness.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.restrictVolumeAdjustment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getInstance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getBTMac.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.html"
         }
       },
       "version": ""
@@ -925,7 +1021,7 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getDeviceModel.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getBTMac.html"
         }
       },
       "version": ""
@@ -935,7 +1031,27 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getDeviceSn.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getInstance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.init.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.className.html"
         }
       },
       "version": ""
@@ -985,7 +1101,7 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.className.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.restrictVolumeAdjustment.html"
         }
       },
       "version": ""
@@ -1005,7 +1121,27 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getBrightness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/YVR.Enterprise.Device.DeviceElements.setBrightness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getDeviceModel.html"
         }
       },
       "version": ""
@@ -1035,17 +1171,7 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.changeThirdHomeState.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceElements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.html"
+          "relative_path": "api/YVR.Enterprise.Device.DeviceElements.getDeviceSn.html"
         }
       },
       "version": ""
@@ -1085,16 +1211,6 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.maxVolume.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.volumeAdjustmentRestricted.html"
         }
       },
@@ -1105,7 +1221,27 @@
       "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
       "output": {
         ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.maxVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.volume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.osVersion.html"
         }
       },
       "version": ""
@@ -1162,40 +1298,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Device.DeviceMgr.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Device.DeviceMgr.osVersion.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/YVR.Enterprise.Device.yml",
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Device.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerDetectionEnable.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.html"
         }
       },
       "version": ""
@@ -1215,6 +1321,16 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
       "output": {
         ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetRecenterEnable.html"
         }
       },
@@ -1225,7 +1341,17 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingUpdateAction.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.SetMarkerDetectionEnable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetGroundDistance.html"
         }
       },
       "version": ""
@@ -1255,7 +1381,7 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.-ctor.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.trackingUpdateAction.html"
         }
       },
       "version": ""
@@ -1265,17 +1391,7 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.GetGroundDistance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEAndroidPlugin.-ctor.html"
         }
       },
       "version": ""
@@ -1295,7 +1411,7 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetRecenterEnable.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetGroundDistance.html"
         }
       },
       "version": ""
@@ -1315,7 +1431,7 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetGroundDistance.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.GetRecenterEnable.html"
         }
       },
       "version": ""
@@ -1332,30 +1448,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.spaceUuidMaxSize.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.SetRecenterEnable.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEDefaultPlugin.html"
         }
       },
       "version": ""
@@ -1375,17 +1471,7 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.GetGroundDistance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerDetectionEnable.html"
+          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.SetRecenterEnable.html"
         }
       },
       "version": ""
@@ -1405,7 +1491,47 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
       "output": {
         ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.GetGroundDistance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.spaceUuidMaxSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.LBEPlugin.SetMarkerDetectionEnable.html"
         }
       },
       "version": ""
@@ -1425,27 +1551,17 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
       "output": {
         ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.region.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.confidence.html"
         }
       },
       "version": ""
@@ -1465,7 +1581,17 @@
       "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.markerType.html"
+          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.confidence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.LBE.MarkerTrackingUpdateData.html"
         }
       },
       "version": ""
@@ -1476,26 +1602,6 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.LBE.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.RenderScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.RenderScale.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.RenderScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.RenderScale.ToString.html"
         }
       },
       "version": ""
@@ -1516,6 +1622,26 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Render.RenderScale.normal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.RenderScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.RenderScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.RenderScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.RenderScale.ToString.html"
         }
       },
       "version": ""
@@ -1555,37 +1681,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.maxRenderScale.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.renderScale.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.overrideResolution.html"
         }
       },
       "version": ""
@@ -1605,7 +1701,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.overrideResolution.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.renderScale.html"
         }
       },
       "version": ""
@@ -1616,6 +1712,36 @@
       "output": {
         ".html": {
           "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.minRenderScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.maxRenderScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScale.html"
         }
       },
       "version": ""
@@ -1645,7 +1771,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCountOutput.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCapacityInput.html"
         }
       },
       "version": ""
@@ -1655,7 +1781,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCapacityInput.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleBuffers.renderScaleCountOutput.html"
         }
       },
       "version": ""
@@ -1665,7 +1791,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.normalScale.html"
         }
       },
       "version": ""
@@ -1685,7 +1811,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.normalScale.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleNormal.html"
         }
       },
       "version": ""
@@ -1695,17 +1821,7 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.ToString.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.innerScale.html"
         }
       },
       "version": ""
@@ -1725,7 +1841,17 @@
       "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.yml",
       "output": {
         ".html": {
-          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.innerScale.html"
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YVR.Enterprise.Render.YVRRenderScaleQuadViews.html"
         }
       },
       "version": ""
