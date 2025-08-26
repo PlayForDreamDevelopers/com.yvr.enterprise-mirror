@@ -1,33 +1,70 @@
 using System;
-using System.IO;
+using System.Runtime.InteropServices;
 using Unity.Collections;
-using UnityEngine;
+using Unity.Collections.LowLevel.Unsafe;
 
 namespace YVR.Enterprise.Camera
 {
     public class UndistortionMap
     {
-        public readonly NativeArray<float> xDataArray;
-        public readonly NativeArray<float> yDataArray;
+        public NativeArray<float> xDataArray;
+        public NativeArray<float> yDataArray;
 
-        public UndistortionMap(int width, int height, string mapXFile, string mapYFile)
+        public UndistortionMap(VSTCameraSourceType source, VSTCameraResolutionType resolution)
         {
-            xDataArray = LoadLut(mapXFile, width * height);
-            yDataArray = LoadLut(mapYFile, width * height);
+            GetResolution(resolution,out int width, out int height);
+            LoadNativeMap(source, resolution, width * height);
         }
 
-        private NativeArray<float> LoadLut(string resourceName, int length)
+        private void LoadNativeMap(VSTCameraSourceType source, VSTCameraResolutionType resolution,
+                                   int length)
         {
-            var binAsset = Resources.Load<TextAsset>(resourceName);
-            if (binAsset == null)
-                throw new FileNotFoundException("Resource not found: " + resourceName);
+            GetResolution(resolution,out int width, out int height);
 
-            byte[] bytes = binAsset.bytes;
+            IntPtr mapXPtr = Marshal.AllocHGlobal(length * sizeof(float));
+            IntPtr mapYPtr = Marshal.AllocHGlobal(length * sizeof(float));
+            IntPtr focalLengthPtr = Marshal.AllocHGlobal(2 * sizeof(float));
+            IntPtr principalPointPtr = Marshal.AllocHGlobal(2 * sizeof(float));
+            YVRVSTCameraPlugin.GenerateVSTCameraUnDistortionMap(source, resolution, width, height, 1.0f,
+                                                                mapXPtr, mapYPtr, focalLengthPtr, principalPointPtr);
 
-            var arr = new NativeArray<float>(length, Allocator.Persistent);
-            for (int i = 0; i < length; ++i)
-                arr[i] = BitConverter.ToSingle(bytes, i * 4);
-            return arr;
+            xDataArray = new NativeArray<float>(length, Allocator.Persistent);
+            yDataArray = new NativeArray<float>(length, Allocator.Persistent);
+            unsafe
+            {
+                void* xPtr = xDataArray.GetUnsafePtr();
+                void* yPtr = yDataArray.GetUnsafePtr();
+                UnsafeUtility.MemCpy(xPtr, (void*) mapXPtr, length * sizeof(float));
+                UnsafeUtility.MemCpy(yPtr, (void*) mapYPtr, length * sizeof(float));
+            }
+
+            Marshal.FreeHGlobal(mapXPtr);
+            Marshal.FreeHGlobal(mapYPtr);
+            Marshal.FreeHGlobal(focalLengthPtr);
+            Marshal.FreeHGlobal(principalPointPtr);
+        }
+
+        private void GetResolution(VSTCameraResolutionType resolution, out int width, out int height)
+        {
+            switch (resolution)
+            {
+                case VSTCameraResolutionType.VSTResolution660_616:
+                    width = 660;
+                    height = 616;
+                    break;
+                case VSTCameraResolutionType.VSTResolution1320_1232:
+                    width = 1320;
+                    height = 1232;
+                    break;
+                case VSTCameraResolutionType.VSTResolution2640_2464:
+                    width = 2640;
+                    height = 2464;
+                    break;
+                default:
+                    width = 660;
+                    height = 616;
+                    break;
+            }
         }
     }
 }

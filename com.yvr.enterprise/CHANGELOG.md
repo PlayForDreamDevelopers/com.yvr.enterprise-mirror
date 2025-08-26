@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9] - 2025-08-26
+
+### Added
+
+- 支持获取 Camera 到 VST Camera 的偏移量
+- 支持获取 Distortion Map
+
 ## [0.1.8] - 2025-08-06
 
 ### Added

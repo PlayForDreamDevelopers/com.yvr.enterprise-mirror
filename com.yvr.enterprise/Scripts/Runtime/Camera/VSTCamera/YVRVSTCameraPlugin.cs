@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.InteropServices;
 using YVR.Enterprise.Render;
 
@@ -30,11 +31,11 @@ namespace YVR.Enterprise.Camera
         private static extern void YVRGetVSTCameraOutputSource(ref VSTCameraSourceType sourceType);
 
         [DllImport("enterprisePlugin")]
-        private static extern void YVRGetVSTCameraIntrinsicExtrinsic(YVREyeNumberType eyeNumberType,
-            ref VSTCameraIntrinsicExtrinsicData data);
+        private static extern void YVRGetVSTCameraIntrinsicExtrinsic(VSTCameraSourceType eyeNumberType,
+                                                                     ref VSTCameraIntrinsicExtrinsicData data);
 
         [DllImport("enterprisePlugin")]
-        private static extern void YVRGetVSTCameraIntrinsicExtrinsicRelativeToIMU(YVREyeNumberType eyeNumberType,
+        private static extern void YVRGetVSTCameraIntrinsicExtrinsicRelativeToIMU(VSTCameraSourceType eyeNumberType,
             ref VSTCameraIntrinsicExtrinsicData data);
 
         [DllImport("enterprisePlugin")]
@@ -51,6 +52,18 @@ namespace YVR.Enterprise.Camera
 
         [DllImport("yvrplugin")]
         private static extern void YVRSetRenderScale(string packageName, YVRRenderScale renderScale);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRGetEyeCenterToVSTCameraExtrinsic(VSTCameraSourceType eyeNumberType,
+                                                                       ref VSTCameraExtrinsicData data);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRGenerateVSTCameraUnDistortionMap(VSTCameraSourceType eyeNumberType,
+                                                                       VSTCameraResolutionType resolution, int width,
+                                                                       int height, float fovScale, IntPtr mapXOutput,
+                                                                       IntPtr mapYOutput,
+                                                                       IntPtr focalLength,
+                                                                       IntPtr principlePoint);
 
         public static void SetVSTCameraFrequency(VSTCameraFrequencyType freq) { YVRSetVSTCameraFrequency(freq); }
 
@@ -86,14 +99,14 @@ namespace YVR.Enterprise.Camera
             YVRGetVSTCameraOutputSource(ref sourceType);
         }
 
-        public static void GetVSTCameraIntrinsicExtrinsic(YVREyeNumberType eyeNumberType,
+        public static void GetVSTCameraIntrinsicExtrinsic(VSTCameraSourceType eyeNumberType,
                                                           ref VSTCameraIntrinsicExtrinsicData data)
         {
             YVRGetVSTCameraIntrinsicExtrinsic(eyeNumberType, ref data);
         }
 
-        public static void GetVSTCameraIntrinsicExtrinsicRelativeToIMU(YVREyeNumberType eyeNumberType,
-            ref VSTCameraIntrinsicExtrinsicData data)
+        public static void GetVSTCameraIntrinsicExtrinsicRelativeToIMU(VSTCameraSourceType eyeNumberType,
+                                                                       ref VSTCameraIntrinsicExtrinsicData data)
         {
             YVRGetVSTCameraIntrinsicExtrinsicRelativeToIMU(eyeNumberType, ref data);
         }
@@ -107,6 +120,12 @@ namespace YVR.Enterprise.Camera
             YVRAcquireVSTCameraFrame(ref frameData);
         }
 
+        public static void GetEyeCenterToVSTCameraExtrinsic(VSTCameraSourceType eyeSourceType,
+                                                            ref VSTCameraExtrinsicData data)
+        {
+            YVRGetEyeCenterToVSTCameraExtrinsic(eyeSourceType, ref data);
+        }
+
         public static void GetRenderScale(string packageName, ref YVRRenderScaleBuffers renderScaleBuffers)
         {
             YVRGetRenderScale(packageName, ref renderScaleBuffers);
@@ -115,6 +134,15 @@ namespace YVR.Enterprise.Camera
         public static void SetRenderScale(string packageName, YVRRenderScale renderScale)
         {
             YVRSetRenderScale(packageName, renderScale);
+        }
+
+        public static void GenerateVSTCameraUnDistortionMap(VSTCameraSourceType eyeSourceType,
+                                                            VSTCameraResolutionType resolution, int width, int height,
+                                                            float fovScale, IntPtr mapXOutput, IntPtr mapYOutput,
+                                                            IntPtr focalLength, IntPtr principlePoint)
+        {
+            YVRGenerateVSTCameraUnDistortionMap(eyeSourceType, resolution, width, height, fovScale, mapXOutput,
+                                                mapYOutput, focalLength, principlePoint);
         }
     }
 }
