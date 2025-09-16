@@ -191,6 +191,18 @@ namespace YVR.Enterprise.Device
             ajcBase.CallJNI<bool>(SystemConfigurationElements.setSystemSettingsInt, "xr_display_4k_mode",
                                   enable ? 1 : 0);
         }
+
+        public void SetPowerTripleClickEnable(bool enable)
+        {
+            var value = enable ? "eye_calibration" : "disable";
+            ajcBase.CallJNI<bool>(SystemConfigurationElements.setBizCustomKeyFeature, "power_triple_click",value);
+        }
+
+        public void SetPowerKnobClickEnable(bool enable)
+        {
+            var value = enable ? "screencap" : "disable";
+            ajcBase.CallJNI<bool>(SystemConfigurationElements.setBizCustomKeyFeature, "power_knob_click",value);
+        }
     }
 }
 #endif

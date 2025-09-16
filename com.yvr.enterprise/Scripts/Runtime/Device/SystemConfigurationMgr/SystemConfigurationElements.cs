@@ -52,6 +52,8 @@ namespace YVR.Enterprise.Device
 
         public const string setSystemSettingsInt = "putIntForSettingsSystem";
         public const string getSystemSettingsInt = "getIntForSettingsSystem";
+
+        public const string setBizCustomKeyFeature = "setBizCustomKeyFeature";
     }
 }
 #endif
