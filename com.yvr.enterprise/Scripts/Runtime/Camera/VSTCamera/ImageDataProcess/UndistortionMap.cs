@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.Contracts;
 using System.Runtime.InteropServices;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
@@ -9,6 +10,9 @@ namespace YVR.Enterprise.Camera
     {
         public NativeArray<float> xDataArray;
         public NativeArray<float> yDataArray;
+
+        public NativeArray<float> focalLength;
+        public NativeArray<float> principalPoint;
 
         public UndistortionMap(VSTCameraSourceType source, VSTCameraResolutionType resolution)
         {
@@ -30,12 +34,18 @@ namespace YVR.Enterprise.Camera
 
             xDataArray = new NativeArray<float>(length, Allocator.Persistent);
             yDataArray = new NativeArray<float>(length, Allocator.Persistent);
+            focalLength = new NativeArray<float>(2, Allocator.Persistent);
+            principalPoint = new NativeArray<float>(2, Allocator.Persistent);
             unsafe
             {
                 void* xPtr = xDataArray.GetUnsafePtr();
                 void* yPtr = yDataArray.GetUnsafePtr();
-                UnsafeUtility.MemCpy(xPtr, (void*) mapXPtr, length * sizeof(float));
-                UnsafeUtility.MemCpy(yPtr, (void*) mapYPtr, length * sizeof(float));
+                void* desFocalLengthPtr = focalLength.GetUnsafePtr();
+                void* desPrincipalPoint = principalPoint.GetUnsafePtr();
+                UnsafeUtility.MemCpy(xPtr, (void*)mapXPtr, length * sizeof(float));
+                UnsafeUtility.MemCpy(yPtr, (void*)mapYPtr, length * sizeof(float));
+                UnsafeUtility.MemCpy(desFocalLengthPtr, (void*)focalLengthPtr, 2 * sizeof(float));
+                UnsafeUtility.MemCpy(desPrincipalPoint, (void*)principalPointPtr, 2 * sizeof(float));
             }
 
             Marshal.FreeHGlobal(mapXPtr);

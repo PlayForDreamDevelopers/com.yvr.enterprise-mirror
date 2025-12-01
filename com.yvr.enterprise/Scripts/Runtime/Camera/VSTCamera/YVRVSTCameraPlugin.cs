@@ -1,5 +1,8 @@
 using System;
+using System.Resources;
 using System.Runtime.InteropServices;
+using AOT;
+using UnityEngine;
 using YVR.Enterprise.Render;
 
 namespace YVR.Enterprise.Camera
@@ -64,6 +67,15 @@ namespace YVR.Enterprise.Camera
                                                                        IntPtr mapYOutput,
                                                                        IntPtr focalLength,
                                                                        IntPtr principlePoint);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRSubscribeVSTCameraFrame(Action<IntPtr, IntPtr> callback, IntPtr userData);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRUnsubscribeVSTCameraFrame();
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRGetHeadPose(long timestamp, ref  SixDofPoseData headPose);
 
         public static void SetVSTCameraFrequency(VSTCameraFrequencyType freq) { YVRSetVSTCameraFrequency(freq); }
 
@@ -143,6 +155,32 @@ namespace YVR.Enterprise.Camera
         {
             YVRGenerateVSTCameraUnDistortionMap(eyeSourceType, resolution, width, height, fovScale, mapXOutput,
                                                 mapYOutput, focalLength, principlePoint);
+        }
+
+        public static void SubscribeVSTCameraFrame(Action<VSTCameraFrameData> callback)
+        {
+            frameDataAction += callback;
+            Debug.Log("SubscribeVSTCameraFrame");
+            YVRSubscribeVSTCameraFrame(FrameCallback,IntPtr.Zero);
+        }
+
+        private static  Action<VSTCameraFrameData> frameDataAction;
+
+        [MonoPInvokeCallback(typeof(Action<IntPtr, IntPtr>))]
+        private static void FrameCallback(IntPtr frame, IntPtr userData)
+        {
+            var cameraFrameData = Marshal.PtrToStructure<VSTCameraFrameData>(frame);
+            frameDataAction?.Invoke(cameraFrameData);
+        }
+
+        public static void UnsubscribeVSTCameraFrame()
+        {
+            YVRUnsubscribeVSTCameraFrame();
+        }
+
+        public static void GetHeadPose(long timestamp, ref SixDofPoseData headPose)
+        {
+            YVRGetHeadPose(timestamp,ref headPose);
         }
     }
 }

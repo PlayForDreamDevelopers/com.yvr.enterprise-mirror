@@ -203,6 +203,12 @@ namespace YVR.Enterprise.Device
             var value = enable ? "screencap" : "disable";
             ajcBase.CallJNI<bool>(SystemConfigurationElements.setBizCustomKeyFeature, "power_knob_click",value);
         }
+
+        public void ApplyUserConfig(string json, Action<string> callback)
+        {
+            ajcBase.CallJNI<bool>(SystemConfigurationElements.applyUserConfig, json,
+                JavaObjectConverter.CreatConsumerProxy(callback));
+        }
     }
 }
 #endif

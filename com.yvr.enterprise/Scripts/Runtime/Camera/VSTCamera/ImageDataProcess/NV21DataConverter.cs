@@ -6,18 +6,18 @@ namespace YVR.Enterprise.Camera
     public class NV21DataConverter
     {
         // These data only used for internal calculation
-        private NativeArray<byte> m_RGBDataArray = default;
-        private NativeArray<byte> m_UndistortedRgbDataArray = default;
         private int m_Width, m_Height;
 
+        public NativeArray<byte> rgbDataArray = default;
+        public NativeArray<byte> undistortedRgbDataArray = default;
         public NativeArray<byte> normalizedRGBDataArray = default;
 
         public NV21DataConverter(int width, int height)
         {
             m_Width = width;
             m_Height = height;
-            m_RGBDataArray = new NativeArray<byte>(width * height * 3, Allocator.Persistent);
-            m_UndistortedRgbDataArray = new NativeArray<byte>(width * height * 3, Allocator.Persistent);
+            rgbDataArray = new NativeArray<byte>(width * height * 3, Allocator.Persistent);
+            undistortedRgbDataArray = new NativeArray<byte>(width * height * 3, Allocator.Persistent);
 
             normalizedRGBDataArray = new NativeArray<byte>(width * height * 3, Allocator.Persistent);
         }
@@ -27,7 +27,7 @@ namespace YVR.Enterprise.Camera
             var nv21ToRGBJob = new NV21ToRGBJob
             {
                 nv21Data = nv21Data,
-                rgbData = m_RGBDataArray,
+                rgbData = rgbDataArray,
                 width = m_Width,
                 height = m_Height
             };
@@ -36,8 +36,8 @@ namespace YVR.Enterprise.Camera
 
             var undistortionJob = new FisheyeUndistortionJob
             {
-                srcRgb = m_RGBDataArray,
-                dstRgb = m_UndistortedRgbDataArray,
+                srcRgb = rgbDataArray,
+                dstRgb = undistortedRgbDataArray,
                 mapX = undistortionMap.xDataArray,
                 mapY = undistortionMap.yDataArray,
                 width = m_Width,
@@ -48,7 +48,7 @@ namespace YVR.Enterprise.Camera
 
             var rotate90CCWJob = new RotateRGB90CWJob
             {
-                srcRgb = m_UndistortedRgbDataArray,
+                srcRgb = undistortedRgbDataArray,
                 dstRgb = normalizedRGBDataArray,
                 srcWidth = m_Width,
                 srcHeight = m_Height
@@ -58,12 +58,11 @@ namespace YVR.Enterprise.Camera
             return rgbRotateCCW90JobHandle;
         }
 
-
         ~NV21DataConverter()
         {
-            m_RGBDataArray.Dispose();
+            rgbDataArray.Dispose();
             normalizedRGBDataArray.Dispose();
-            m_UndistortedRgbDataArray.Dispose();
+            undistortedRgbDataArray.Dispose();
         }
     }
 }

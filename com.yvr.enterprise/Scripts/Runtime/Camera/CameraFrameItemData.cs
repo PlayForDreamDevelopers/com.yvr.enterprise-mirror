@@ -32,6 +32,9 @@ namespace YVR.Enterprise.Camera
         [MarshalAs(UnmanagedType.ByValArray, SizeConst = 2)]
         public IntPtr[] data;
 
+        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 64)]
+        public byte[] reserved;
+
         public override string ToString()
         {
             return $"frameNumber:{frameNumber},width:{width},height:{height},format:{format}," +
