@@ -29,7 +29,7 @@ namespace YVR.Enterprise.Camera
             IntPtr mapYPtr = Marshal.AllocHGlobal(length * sizeof(float));
             IntPtr focalLengthPtr = Marshal.AllocHGlobal(2 * sizeof(float));
             IntPtr principalPointPtr = Marshal.AllocHGlobal(2 * sizeof(float));
-            YVRVSTCameraPlugin.GenerateVSTCameraUnDistortionMap(source, resolution, width, height, 1.0f,
+            YVRVSTCameraPlugin.GenerateVSTCameraUnDistortionMap(source, resolution, width, height, 1f,
                                                                 mapXPtr, mapYPtr, focalLengthPtr, principalPointPtr);
 
             xDataArray = new NativeArray<float>(length, Allocator.Persistent);

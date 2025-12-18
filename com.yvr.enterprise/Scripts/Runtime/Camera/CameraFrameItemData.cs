@@ -37,7 +37,7 @@ namespace YVR.Enterprise.Camera
 
         public override string ToString()
         {
-            return $"frameNumber:{frameNumber},width:{width},height:{height},format:{format}," +
+            return $"frameNumber:{frameNumber},width:{width},height:{height},stride:{stride},format:{format}," +
                    $"exposureDuration:{exposureDuration},soeTimestamp:{soeTimestamp},soeTimestampq:{soeTimestampq}," +
                    $"gain:{gain},dataSize:{dataSize}";
         }

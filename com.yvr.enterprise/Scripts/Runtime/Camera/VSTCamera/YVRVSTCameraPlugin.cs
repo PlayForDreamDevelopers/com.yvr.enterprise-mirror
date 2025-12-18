@@ -77,6 +77,15 @@ namespace YVR.Enterprise.Camera
         [DllImport("enterprisePlugin")]
         private static extern void YVRGetHeadPose(long timestamp, ref  SixDofPoseData headPose);
 
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRAcquireVSTCameraFrameUndistorted(ref VSTCameraFrameData vstCameraFrameData);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRSubscribeVSTCameraFrameUndistorted(Action<IntPtr, IntPtr> callback, IntPtr userData);
+
+        [DllImport("enterprisePlugin")]
+        private static extern void YVRUnsubscribeVSTCameraFrameUndistorted();
+
         public static void SetVSTCameraFrequency(VSTCameraFrequencyType freq) { YVRSetVSTCameraFrequency(freq); }
 
         public static void GetVSTCameraFrequency(ref VSTCameraFrequencyType freq)
@@ -160,7 +169,6 @@ namespace YVR.Enterprise.Camera
         public static void SubscribeVSTCameraFrame(Action<VSTCameraFrameData> callback)
         {
             frameDataAction += callback;
-            Debug.Log("SubscribeVSTCameraFrame");
             YVRSubscribeVSTCameraFrame(FrameCallback,IntPtr.Zero);
         }
 
@@ -181,6 +189,31 @@ namespace YVR.Enterprise.Camera
         public static void GetHeadPose(long timestamp, ref SixDofPoseData headPose)
         {
             YVRGetHeadPose(timestamp,ref headPose);
+        }
+
+        public static void AcquireVSTCameraFrameUndistorted(ref VSTCameraFrameData frameData)
+        {
+            YVRAcquireVSTCameraFrameUndistorted(ref frameData);
+        }
+
+        public static void SubscribeVSTCameraFrameUndistorted(Action<VSTCameraFrameData> callback)
+        {
+            undistortedframeDataAction += callback;
+            YVRSubscribeVSTCameraFrameUndistorted(UndistortedFrameCallback,IntPtr.Zero);
+        }
+
+        public static void UnsubscribeVSTCameraFrameUndistorted()
+        {
+            YVRUnsubscribeVSTCameraFrameUndistorted();
+        }
+
+        private static  Action<VSTCameraFrameData> undistortedframeDataAction;
+
+        [MonoPInvokeCallback(typeof(Action<IntPtr, IntPtr>))]
+        private static void  UndistortedFrameCallback(IntPtr frame, IntPtr userData)
+        {
+            var cameraFrameData = Marshal.PtrToStructure<VSTCameraFrameData>(frame);
+            undistortedframeDataAction?.Invoke(cameraFrameData);
         }
     }
 }
