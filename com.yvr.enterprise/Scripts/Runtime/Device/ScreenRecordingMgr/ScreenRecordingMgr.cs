@@ -1,3 +1,4 @@
+using System;
 using YVR.AndroidDevice.Core.Utilities;
 
 namespace YVR.Enterprise.Device
@@ -12,6 +13,11 @@ namespace YVR.Enterprise.Device
         public void StopRecordScreen()
         {
             ajcBase.CallJNI(ScreenRecordingElements.stopRecordScreen);
+        }
+
+        public void ScreenShot(Action<string> callback = null)
+        {
+            ajcBase.CallJNI(ScreenRecordingElements.screenShot, JavaObjectConverter.CreatConsumerProxy(callback));
         }
     }
 }

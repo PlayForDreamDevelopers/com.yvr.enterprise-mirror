@@ -6,5 +6,6 @@ namespace YVR.Enterprise.Device
         public const string stopRecordScreen = "stopRecordScreen";
         public const string startRecordScreenBySurface = "startRecordScreenBySurface";
         public const string stopRecordScreenBySurface = "stopRecordScreenBySurface";
+        public const string screenShot = "screenShot";
     }
 }
